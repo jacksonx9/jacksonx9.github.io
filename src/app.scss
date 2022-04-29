@@ -1,0 +1,29 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: salmon;
+        position: relative;
+        top: 70px;
+
+        // hide scrollbar
+        scrollbar-width: none; // for firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        // slow down change between pages
+        scroll-behavior: smooth;
+
+        // force snap to a page
+        scroll-snap-type: y mandatory;
+
+        > *{
+            width: 100%;
+            height: calc(100vh - 70px);
+        }
+    }
+}
+
