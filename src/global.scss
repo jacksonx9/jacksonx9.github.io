@@ -1,1 +1,54 @@
 $mainColor: #a53c46;
+
+.Title {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+
+}
+
+.Dashes {
+    color: #ece7e5;
+}
+
+.Quotation {
+    display:block;
+    font-family: Ubuntu Mono;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: #262626;
+}
+
+.Red-highlighting {
+    display: inline-block;
+    padding: 0 8px 0 12px;
+    border-radius: 10px;
+    -webkit-box-decoration-break: clone;
+    background: linear-gradient(104deg, rgba(255, 130, 130, 0) .9%, #ff8282 2.4%, rgba(255, 130, 130, .5) 5.8%, rgba(255, 130, 130, .1) 93%, rgba(255, 130, 130, .7) 96%), linear-gradient(183deg, rgba(130, 255, 173, 0), rgba(255, 107, 152, .3) 7.9%, rgba(255, 130, 130, 0) 15%);
+    text-shadow:-12px 12px 9.8px rgba(255, 130, 130, .7), 21px -18.1px 7.3px #fff, -18.1px -27.3px 30px #fff;
+    background-color: #ffcaca;
+    font-weight: bold;
+}
+
+.Black-button {
+    display: inline-block;
+    vertical-align: middle;
+
+    border-radius: 20px;
+    background-color: #000;
+
+    font-family: Ubuntu Mono;
+    font-size: 14px;
+    text-align: middle;
+    color: #fff;
+}

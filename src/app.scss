@@ -1,28 +1,32 @@
 .app{
     height: 100vh;
 
+    .topbar{
+        height: 104px;
+    }
+
     .sections{
         width: 100%;
-        height: calc(100vh - 70px);
-        background-color: salmon;
-        position: relative;
-        top: 70px;
-
-        // hide scrollbar
-        scrollbar-width: none; // for firefox
-        &::-webkit-scrollbar{
-            display: none;
-        }
+        // height: calc(100vh - 104px);
+        // position: relative;
+        // top: 104px;
 
         // slow down change between pages
         scroll-behavior: smooth;
 
+        // hide scrollbar
+        // scrollbar-width: none; // for firefox
+        // &::-webkit-scrollbar{
+        //     display: none;
+        // }
+
         // force snap to a page
-        scroll-snap-type: y mandatory;
+        // scroll-snap-type: y mandatory;
 
         > *{
             width: 100%;
-            height: calc(100vh - 70px);
+            // height: calc(100vh - 104px);
+            height: 100vh;
         }
     }
 }
