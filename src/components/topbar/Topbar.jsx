@@ -5,11 +5,9 @@ export default function Topbar() {
     <div className="topbar">
       <div className="wrapper">
         <div className="left">
-          <div className="name-frame">
-            <span class="name">
-              SANDY
-            </span>
-          </div>
+          <span className="name">
+            SANDY
+          </span>
         </div>
         <div className="right">
           {/* TODO: Update hrefs */}

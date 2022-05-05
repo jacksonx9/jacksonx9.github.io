@@ -8,43 +8,27 @@
     top: 0;
     z-index: 2;
 
-    // hide scrollbar
-    scrollbar-width: none; // for firefox
-    &::-webkit-scrollbar{
-        display: none;
-    }
-
     .wrapper{
-        padding: 32px 30px;
+        padding: 32px 72px 0px 64px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         .left{
-            .name-frame{
-                //TODO: update sizing.
-                width: 80px;
-                height: 22px;
-                gap: 10px;
-                padding: 4px;
+            .name{
+                width: 72px;
+                height: 32px;
                 border-radius: 5px;
                 background-color: #a53c46;
 
-                .name{
-                    //TODO: update sizing.
-                    width: 59px;
-                    height: 24px;
-                    flex-grow: 0;
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-weight: 900;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: normal;
-                    letter-spacing: normal;
-                    text-align: left;
-                    color: #fff;
-                }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 900;
+                color: #fff;
             }
         }
 
@@ -58,9 +42,6 @@
                     lex-grow: 0;
                     font-family: Ubuntu Mono;
                     font-size: 12px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-style: normal;
                     line-height: 1.4;
                     letter-spacing: 1.2px;
                     text-align: left;
@@ -69,7 +50,7 @@
             }
 
             > *{
-                padding-left: 30px;
+                padding-left: 24px;
             }
         }
     }
