@@ -22,8 +22,27 @@ export default function Portfolio() {
         can catch me working on web3 stealth startups or personal projects.
       </span>
 
-      <ul className="portfolio-list">
-        <li className="box">
+      <div className="portfolio-section">
+        <div className="left-pad"></div>
+
+        <div className="box blockpoly-position">
+          <div className="image-box">
+            {/* <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            BLOCKPOLY
+          </span>
+          <span className="portfolio-position">
+            FOUNDING DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Currently a work in<br />
+            progress. Metaverse loan<br />
+            marketplace.
+          </span>
+        </div>
+
+        <div className="box double-jump-position">
           <div className="image-box">
             <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/>
           </div>
@@ -34,14 +53,113 @@ export default function Portfolio() {
             PRODUCT DESIGNER
           </span>
           <span className="portfolio-description">
-          Designed their responsive<br />
-          website and lite page.<br />
-          Web3 gaming startup.
+            Designed their responsive<br />
+            website and lite page.<br />
+            Web3 gaming startup.
           </span>
-        </li>
-      </ul>
+        </div>
 
+        <div className="box mongodb-position">
+          <div className="image-box">
+            {/* <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            MONGODB
+          </span>
+          <span className="portfolio-position">
+            PRODUCT DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Redesigned the feedback<br />
+            widget on Docs + improved<br />
+            design system components.
+          </span>
+        </div>
 
+        <div className="box mcafee-position">
+          <div className="image-box">
+            {/* <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            MCAFEE
+          </span>
+          <span className="portfolio-position">
+            PRODUCT DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Improved the <span class="italics">Pegasus</span><br />
+            design system + their<br />
+            post purchase experience.
+          </span>
+        </div>
+
+        <div className="box go-invo-position">
+          <div className="image-box">
+            <img src="images/go-invo-icon.jpg" alt="Go Invo" className="image"/>
+          </div>
+          <span className="portfolio-title">
+            GOINVO
+          </span>
+          <span className="portfolio-position">
+            UX DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Created a patient<br />
+            timeline for OncoHealth +<br />
+            ASD task app.
+          </span>
+        </div>
+
+        <div className="box aeromates-position">
+          <div className="image-box">
+            {/* <img src="images/go-invo-icon.jpg" alt="Go Invo" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            AEROMATES
+          </span>
+          <span className="portfolio-position">
+            UX DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Designed the iOS and web<br />
+            MVP of the aviation<br />
+            marketplace.
+          </span>
+        </div>
+
+        <div className="box haus-of-golf-position">
+          <div className="image-box">
+            {/* <img src="images/go-invo-icon.jpg" alt="Go Invo" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            HAUS OF GOLF
+          </span>
+          <span className="portfolio-position">
+            UX DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Created their logo +<br />
+            branding guidelines for<br />
+            the VR golf startup.
+          </span>
+        </div>
+
+        <div className="box vrillar-position">
+          <div className="image-box">
+            {/* <img src="images/go-invo-icon.jpg" alt="Go Invo" className="image"/> */}
+          </div>
+          <span className="portfolio-title">
+            VRILLAR
+          </span>
+          <span className="portfolio-position">
+            DESIGNER
+          </span>
+          <span className="portfolio-description">
+            Designed the framework<br />
+            for their NFT<br />
+            marketplace.
+          </span>
+        </div>
 
       <span class="Quotation quotation-position-2">
         Curious about my work? Fall into the
@@ -49,6 +167,7 @@ export default function Portfolio() {
           Rabit Hole ↓
         </button>
       </span>
+      </div>
     </div>
   )
 }
