@@ -32,13 +32,17 @@
 
         border: solid 1px #ece7e5;
 
-        //TODO: change for each obj
-        .image {
-            margin: 36px 48px 0px 48px;
+        .image-box {
+            width: 160px;
+            height: 128px;
+            //TODO: change for each obj
+            .image {
+                margin: 36px 48px 0px 48px;
+            }
         }
 
         .portfolio-title {
-            margin: 100px 0px 0px 16px;
+            margin-left: 16px;
             font-family: Poppins;
             font-size: 12px;
             font-weight: 800;
@@ -46,8 +50,53 @@
             color: #000;
         }
 
+        .portfolio-position {
+            display: block;
+            height: 24px;
+            margin-left: 16px;
+            font-family: Ubuntu Mono;
+            font-size: 11px;
+            line-height: 2.18;
+            letter-spacing: 0.07px;
+            color: #000;
+        }
+
+        .portfolio-description {
+            margin-left: 16px;
+            font-family: Ubuntu Mono;
+            font-size: 11px;
+            line-height: 1.64;
+            letter-spacing: 0.07px;
+            color: #fff;
+
+            display: none;
+        }
+
+        position: relative;
         &:hover {
-            border-width: 10px;
+            left: -10px;
+
+            width: 180px;
+            height: 240px;
+            border-color: $mainColor;
+            background-color: $mainColor;
+
+            .image-box {
+                width: 180px;
+                margin-left: 10px;
+            }
+
+            .portfolio-position {
+                color: #c2c2c2;
+            }
+
+            .portfolio-title {
+                color: white;
+            }
+
+            .portfolio-description {
+                display: block;
+            }
         }
     }
 

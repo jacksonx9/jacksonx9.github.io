@@ -24,20 +24,20 @@ export default function Portfolio() {
 
       <ul className="portfolio-list">
         <li className="box">
-          <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/>
+          <div className="image-box">
+            <img src="images/double-jump-icon.jpg" alt="Double Jump" className="image"/>
+          </div>
           <span className="portfolio-title">
             DOUBLE JUMP
           </span>
-          {/* <span class="content">
-            <strong>Johnny Realestate</strong>
-            <a href="mailto:johnny@realestate.io" title="Email Johnny">johnny@realestate.io</a>
-            <a href="tel:2223334444" title="Call Johnny">222.333.4444</a>
-            <address>
-              1 Real Estate Court<br>
-              suite 101<br>
-              Real, AZ 10101
-            </address>
-          </span> */}
+          <span className="portfolio-position">
+            PRODUCT DESIGNER
+          </span>
+          <span className="portfolio-description">
+          Designed their responsive<br />
+          website and lite page.<br />
+          Web3 gaming startup.
+          </span>
         </li>
       </ul>
 
