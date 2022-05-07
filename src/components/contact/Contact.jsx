@@ -4,8 +4,8 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <span class="Title title-position">
-        INTO THE RABBIT HOLE
-        <span class="Dashes">//</span>
+        INTO THE<br />
+        RABBIT HOLE<span class="Dashes">//</span>
       </span>
 
       <span class="Quotation quotation-position-1">

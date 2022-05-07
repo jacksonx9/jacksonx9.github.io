@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div className='intro' id="intro">
       <span class="Title title-position">
-        WELCOME TO
+        WELCOME TO<br />
         THE GARDEN<span class="Dashes">//</span>
       </span>
 
@@ -18,9 +18,7 @@ export default function Intro() {
       </span>
 
       <div class="Red-highlighting red-highlight-position">
-        <span class="Quotation">
-          My name is Sandy Nguyen.
-        </span>
+        My name is Sandy Nguyen.
       </div>
 
       <span class="Quotation quotation-position-2">

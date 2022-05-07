@@ -1,4 +1,5 @@
 import "./topbar.scss";
+import { Link } from "react-router-dom";
 
 export default function Topbar() {
   return (
@@ -10,12 +11,13 @@ export default function Topbar() {
           </span>
         </div>
         <div className="right">
-          {/* TODO: Update hrefs */}
           <div className="page-frame">
             <a className="page-name" href="#intro">GARDEN</a>
           </div>
           <div className="page-frame">
-            <a className="page-name" href="#contact">MANIFESTO</a>
+            {/* <Link to="/signup"> */}
+              <span className="page-name">MANIFESTO</span>
+            {/* </Link> */}
           </div>
           <div className="page-frame">
             <a className="page-name" href="https://drive.google.com/file/d/1AzvcaJrRYNHisR6ar0AFySibZW4tGUk7/view">RESUME</a>
