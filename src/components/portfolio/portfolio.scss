@@ -13,7 +13,7 @@
     }
 
     .red-highlight-position {
-        width: 590px;
+        width: 620px;
         height: 24px;
         margin: 48px 0px 0px 97px;
     }
@@ -51,6 +51,12 @@
                 //TODO: change for each obj
                 .image {
                     margin: 36px 48px 0px 48px;
+                }
+
+                .image-front {
+                    display: none;
+                    z-index: 3;
+                    position: absolute;
                 }
             }
 
@@ -113,6 +119,14 @@
                 .image-box {
                     width: 180px;
                     margin-left: 10px;
+
+                    .image {
+                        display: none;
+                    }
+
+                    .image-front {
+                        display: inline;
+                    }
                 }
 
                 .portfolio-position {
