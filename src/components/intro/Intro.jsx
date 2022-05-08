@@ -29,9 +29,9 @@ export default function Intro() {
 
       <span class="Quotation quotation-position-3">
         Are you ready to build together?<span class="Dashes">//</span>
-        <button class="Black-button black-button-sizing">
+        <a class="Black-button black-button-sizing" href="#portfolio">
           They Were ↓
-        </button>
+        </a>
       </span>
     </div>
   )

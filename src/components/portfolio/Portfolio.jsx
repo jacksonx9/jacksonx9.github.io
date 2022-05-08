@@ -169,9 +169,9 @@ export default function Portfolio() {
 
       <span class="Quotation quotation-position-2">
         Curious about my work? Fall into the
-        <button class="Black-button black-button-sizing">
+        <a class="Black-button black-button-sizing" href="#contact">
           Rabit Hole ↓
-        </button>
+        </a>
       </span>
       </div>
     </div>
