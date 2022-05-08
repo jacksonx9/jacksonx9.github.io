@@ -1,8 +1,35 @@
 $mainColor: #a53c46;
 
+.garden {
+    .Title {
+        color: #000;
+    }
+
+    .Dashes {
+        color: #ece7e5;
+    }
+
+    .Quotation {
+        color: #262626;
+    }
+}
+
+.manifesto {
+    .Title {
+        color: #fff;
+    }
+
+    .Dashes {
+        color: #333;
+    }
+
+    .Quotation {
+        color: #ece7e5;
+    }
+}
+
 .Title {
     display: block;
-    vertical-align: top;
     font-family: Poppins;
     font-size: 60px;
     font-weight: 800;
@@ -11,11 +38,6 @@ $mainColor: #a53c46;
     line-height: 1.03;
     letter-spacing: normal;
     text-align: left;
-    color: #000;
-}
-
-.Dashes {
-    color: #ece7e5;
 }
 
 .Quotation {
@@ -24,8 +46,6 @@ $mainColor: #a53c46;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.08px;
-    text-align: left;
-    color: #262626;
 }
 
 .Red-highlighting {

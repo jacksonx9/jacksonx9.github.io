@@ -11,23 +11,21 @@ export default function Topbar() {
           </span>
         </div>
         <div className="right">
-          <div className="page-frame">
-            <a className="page-name" href="#intro">GARDEN</a>
-          </div>
-          <div className="page-frame">
-            {/* <Link to="/signup"> */}
-              <span className="page-name">MANIFESTO</span>
-            {/* </Link> */}
-          </div>
-          <div className="page-frame">
-            <a className="page-name" href="https://drive.google.com/file/d/1AzvcaJrRYNHisR6ar0AFySibZW4tGUk7/view">RESUME</a>
-          </div>
-          <div className="page-frame">
-            <a className="page-name" href="https://www.linkedin.com/in/-sandy-nguyen/">LINKEDIN</a>
-          </div>
-          <div className="page-frame">
-            <a className="page-name" href="mailto:sandynguyen1276@gmail.com">CONTACT</a>
-          </div>
+            <Link to="/garden" style={{ textDecoration: 'none' }}>
+              <span className="name garden-name">GARDEN</span>
+            </Link>
+            <Link to="/manifesto" style={{ textDecoration: 'none' }}>
+              <span className="name manifesto-name">MANIFESTO</span>
+            </Link>
+            <div>
+              <a className="name" href="https://drive.google.com/file/d/1AzvcaJrRYNHisR6ar0AFySibZW4tGUk7/view">RESUME</a>
+            </div>
+            <div>
+              <a className="name" href="https://www.linkedin.com/in/-sandy-nguyen/">LINKEDIN</a>
+            </div>
+            <div>
+              <a className="name" href="mailto:sandynguyen1276@gmail.com">CONTACT</a>
+            </div>
         </div>
       </div>
     </div>
