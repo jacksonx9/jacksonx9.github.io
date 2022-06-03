@@ -3,17 +3,14 @@
 .right {
     .image {
         position: fixed;
-        top: 0px;
+        bottom: 0px;
         right: 0px;
 
         width: 50%;
-        height: 100%;
-        // vertical-align: middle;
+        // height: 100%;
 
         z-index: 8;
 
         background-color: transparent;
-
-        // overflow: auto;
     }
 }
