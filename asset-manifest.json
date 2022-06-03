@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/website-for-sandy/static/css/main.de758eb2.css",
-    "main.js": "/website-for-sandy/static/js/main.0d39042f.js",
-    "index.html": "/website-for-sandy/index.html",
-    "main.de758eb2.css.map": "/website-for-sandy/static/css/main.de758eb2.css.map",
-    "main.0d39042f.js.map": "/website-for-sandy/static/js/main.0d39042f.js.map"
+    "main.css": "/website-for-sandy/garden/static/css/main.de758eb2.css",
+    "main.js": "/website-for-sandy/garden/static/js/main.0d39042f.js",
+    "index.html": "/website-for-sandy/garden/index.html",
+    "main.de758eb2.css.map": "/website-for-sandy/garden/static/css/main.de758eb2.css.map",
+    "main.0d39042f.js.map": "/website-for-sandy/garden/static/js/main.0d39042f.js.map"
   },
   "entrypoints": [
     "static/css/main.de758eb2.css",
