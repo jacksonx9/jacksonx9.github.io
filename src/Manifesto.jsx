@@ -29,7 +29,7 @@ export default function Manifesto() {
                 We build together.<br />
                 We grow together.<br />
                 <br />
-                Ready to jump in the rabbit hole?
+                Ready to jump into the rabbit hole?
             </span>
         </div>
       </div>
