@@ -66,6 +66,31 @@
     }
 }
 
+.garden {
+    .topbar {
+        .right {
+            .name {
+                padding: 6px 8px;
+                border-radius: 4px;
+
+                background-color: white;
+                text-decoration: none;
+
+                color: #a53c46;
+            }
+
+            .garden-name {
+                background-color: #a53c46;
+                color: #fff;
+            }
+
+            > *{
+                padding-left: 16px;
+            }
+        }
+    }
+}
+
 .manifesto {
     .topbar {
         .right {

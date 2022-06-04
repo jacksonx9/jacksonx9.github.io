@@ -1,5 +1,8 @@
 import React from 'react';
 import "./portfolio.scss";
+import { Link } from 'react-router-dom';
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.ScrollLink;
 
 export default function Portfolio() {
   return (
@@ -170,9 +173,10 @@ export default function Portfolio() {
 
       <span class="Quotation quotation-position-2">
         Curious about my work? Fall into the
-        <a class="Black-button black-button-sizing" href="#contact">
-          Rabbit Hole ↓
-        </a>
+        <div onClick={function(e) {
+          const anchor = document.querySelector('#contact')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }} class="Black-button black-button-sizing">Rabbit Hole ↓</div>
       </span>
       </div>
     </div>

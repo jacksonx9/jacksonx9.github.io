@@ -30,9 +30,13 @@ export default function Intro() {
 
       <span class="Quotation quotation-position-3">
         Are you ready to build together?<span class="Dashes">//</span>
-        <a class="Black-button black-button-sizing" href="#portfolio">
+        <div onClick={function(e) {
+          const anchor = document.querySelector('#portfolio')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }} class="Black-button black-button-sizing">
           They Were ↓
-        </a>
+        </div>
+
       </span>
     </div>
   )

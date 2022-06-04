@@ -1,9 +1,10 @@
 import React from 'react';
+import { Element } from 'react-scroll'
 import "./contact.scss";
 
 export default function Contact() {
   return (
-    <div className="contact" id="contact">
+    <Element className="contact" id="contact">
       <span class="Title title-position">
         INTO THE<br />
         RABBIT HOLE<span class="Dashes">//</span>
@@ -53,6 +54,6 @@ export default function Contact() {
           </a>
         </ul>
       </div>
-    </div>
+    </Element>
   )
 }
