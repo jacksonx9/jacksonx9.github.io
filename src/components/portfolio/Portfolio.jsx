@@ -10,7 +10,7 @@ export default function Portfolio() {
       </span>
 
       <div class="Red-highlighting red-highlight-position">
-        I believe good design is where art, community, and technology fuse to create magic
+        I believe good design is where art, community, and technology fuse to create magic.
       </div>
 
       <span class="Quotation quotation-position-1">
@@ -171,7 +171,7 @@ export default function Portfolio() {
       <span class="Quotation quotation-position-2">
         Curious about my work? Fall into the
         <a class="Black-button black-button-sizing" href="#contact">
-          Rabit Hole ↓
+          Rabbit Hole ↓
         </a>
       </span>
       </div>
