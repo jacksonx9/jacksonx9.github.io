@@ -116,8 +116,8 @@ export default function Portfolio() {
 
         <div className="box aeromates-position">
           <div className="image-box">
-            <img src="images/black-portfolio-images/aeromates-icon.png" alt="Aeromates" className="aeromates-image image image-hover"/>
-            <img src="images/white-portfolio-images/aeromates-icon.png" alt="Aeromates" className="aeromates-image image"/>
+            <img src="images/black-aeromates-icon.png" alt="Aeromates" className="aeromates-image image image-hover"/>
+            <img src="images/white-aeromates-icon.png" alt="Aeromates" className="aeromates-image image"/>
           </div>
           <span className="portfolio-title">
             AEROMATES
