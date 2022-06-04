@@ -1,3 +1,4 @@
+import React from 'react';
 import "./right.scss";
 
 export default function Right() {

@@ -4,9 +4,11 @@
 
     .section {
         height: calc(100vh - 104px);
+        background-color: black;
 
         .title-position {
             padding: 196px 0 0 173px;
+            background-color: black;
         }
 
         .line-break {
@@ -18,7 +20,9 @@
         }
 
         .quotation-position-1 {
-            margin: 24px 0 0 173px;
+            background-color: black;
+
+            padding: 24px 0 24px 173px;
         }
     }
 }

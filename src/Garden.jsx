@@ -1,3 +1,4 @@
+import React from 'react';
 import Topbar from "./components/topbar/Topbar";
 import RightImage from "./components/right/Right";
 import Intro from "./components/intro/Intro";
