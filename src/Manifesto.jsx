@@ -7,13 +7,13 @@ export default function Manifesto() {
         <Topbar />
 
         <div className="section">
-            <span class="Title title-position">
-                THE MANIFESTO<span class="Dashes">//</span>
+            <span className="Title title-position">
+                THE MANIFESTO<span className="Dashes">//</span>
             </span>
 
             <div className="line-break"></div>
 
-            <span class="Quotation quotation-position-1">
+            <span className="Quotation quotation-position-1">
                 Think big, go far...<br />
                 Be a pioneer, be ready to forge new paths and take smart risks.<br />
                 <br />

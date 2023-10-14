@@ -14,3 +14,8 @@
         background-color: transparent;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile
+    {display:none;}
+}
